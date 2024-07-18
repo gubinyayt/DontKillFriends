@@ -1,0 +1,34 @@
+#
+#  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+#  ░░██████╗░░█████╗░███╗░░██╗████████╗░░░██╗░░██╗██╗██╗░░░░░██╗░░░░░░░░███████╗██████╗░██╗███████╗███╗░░██╗██████╗░░██████╗░░
+#  ░░██╔══██╗██╔══██╗████╗░██║╚══██╔══╝░░░██║░██╔╝██║██║░░░░░██║░░░░░░░░██╔════╝██╔══██╗██║██╔════╝████╗░██║██╔══██╗██╔════╝░░
+#  ░░██║░░██║██║░░██║██╔██╗██║░░░██║░░░░░░█████═╝░██║██║░░░░░██║░░░░░░░░█████╗░░██████╔╝██║█████╗░░██╔██╗██║██║░░██║╚█████╗░░░
+#  ░░██║░░██║██║░░██║██║╚████║░░░██║░░░░░░██╔═██╗░██║██║░░░░░██║░░░░░░░░██╔══╝░░██╔══██╗██║██╔══╝░░██║╚████║██║░░██║░╚═══██╗░░
+#  ░░██████╔╝╚█████╔╝██║░╚███║░░░██║░░░░░░██║░╚██╗██║███████╗███████╗░░░██║░░░░░██║░░██║██║███████╗██║░╚███║██████╔╝██████╔╝░░
+#  ░░╚═════╝░░╚════╝░╚═╝░░╚══╝░░░╚═╝░░░░░░╚═╝░░╚═╝╚═╝╚══════╝╚══════╝░░░╚═╝░░░░░╚═╝░░╚═╝╚═╝╚══════╝╚═╝░░╚══╝╚═════╝░╚═════╝░░░
+#  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+#      By Gubin         *•—•*         Discord: @gu.b         *•—•*        Discord Group (RUS): https://discord.gg/B6QCGttPtq
+#
+# Spigot 1.16.5 - 1.21
+# Plugin version: 1.0 STABLE
+#
+# true - есть | false - нет
+# Прирученные животные теперь с бессмертием:
+# Tamed animals now with immortality:
+
+immortal-from-explosion: true # Бессмертие от взрыва | Immortality from the explosion
+immortal-from-drowning: true # Бессмертие от утопления | Immortality from drowning
+immortal-from-suffocation: true # Бессмертие от удушья | Immortality from suffocation
+immortal-from-fire: true # Бессмертие от огня | Immortality from fire
+immortal-from-lightning: true # Бессмертие от молнии | Immortality from lightning
+immortal-from-fall: true # Бессмертие от падения | Immortality from falling
+immortal-from-dragon: true # Бессмертие от драконьего дыхания | Immortality from dragon breath
+immortal-from-host: true # Бессмертие от хозяина | Immortality from the host
+immortal-from-projectile: true # Бессмертие от стрел | Immortality from arrows
+immortal-from-magic: true # Бессмертие от зельев | Immortality from potions
+
+plugin-version: "&fPlugin version: &71.0 &aStable"
+hit-message: "&cYou hit a tamed animal!" # Сообщение о ударе | Impact Message
+reload-message: "&aSuccessfully reloaded plugin." # Сообщение о перезагрузки плагина | A message about the plugin restart
+
+commandTabComplete: true # Подсказка команд при нажатии TAB | A command hint when pressing TAB

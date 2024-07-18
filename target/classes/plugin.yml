@@ -1,0 +1,33 @@
+name: DontKillFriends
+description: "Don't Kill Your Friends!"
+author: Gubin
+version: '1.0'
+main: ru.gubin.dontkillfriends.DontKillFriends
+api-version: '1.16'
+commands:
+  dontkillfriends:
+    description: The main command of the plugin DontKillFriends
+    usage: /dontkillfriends <version|author|reload>
+    aliases: [dkf]
+    permission: dontkillfriends.use
+  dkf:
+    description: The main command of the plugin DontKillFriends
+    usage: /dkf <version|author|reload>
+    aliases: [dontkillfriends]
+    permission: dontkillfriends.use
+permissions:
+  dontkillfriends.use:
+    description: Allows you to use plugin commands DontKillFriends
+    default: true
+  dontkillfriends.version:
+    description: Allows you to see the plugin version
+    default: true
+  dontkillfriends.author:
+    description: Allows you to see information about the author of the plugin
+    default: true
+  dontkillfriends.reload:
+    description: Allows you to reload the plugin
+    default: op
+  dontkillfriends.bypass:
+    description: Allows you to beat tamed animals
+    default: op
